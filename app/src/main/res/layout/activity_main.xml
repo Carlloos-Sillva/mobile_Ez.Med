@@ -4,35 +4,40 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F44336"
-    android:gravity="center"
+    android:background="@drawable/background_principal"
     android:orientation="vertical"
+
     tools:context=".MainActivity">
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="match_parent"
-        android:layout_height="197dp"
-        android:src="@drawable/logo" />
-
+        android:layout_width="297dp"
+        android:layout_height="189dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="30dp"
+        app:srcCompat="@drawable/logo" />
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
-        android:layout_height="57dp"
+        android:layout_height="wrap_content"
         android:text="Login"
         android:textAlignment="center"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textSize="34sp" />
 
     <EditText
-        android:id="@+id/edt_Login"
+        android:id="@+id/edtLogin"
         android:layout_width="match_parent"
-        android:layout_height="33dp"
-        android:background="@color/white"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
         android:ems="10"
+        android:hint="digite seu Login"
         android:inputType="textPersonName"
-        android:textSize="34sp"
-        tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck" />
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <TextView
         android:id="@+id/textView2"
@@ -40,42 +45,55 @@
         android:layout_height="wrap_content"
         android:text="Senha"
         android:textAlignment="center"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textSize="34sp" />
 
     <EditText
-        android:id="@+id/edt_Senha"
+        android:id="@+id/edtSenha"
         android:layout_width="match_parent"
-        android:layout_height="33dp"
-        android:background="@color/white"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
         android:ems="10"
+        android:hint="digite sua Senha"
         android:inputType="textPersonName"
-        android:textSize="34sp"
-        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
-
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="47dp" />
-
-    <Button
-        android:id="@+id/btn_Entra"
-        android:layout_width="match_parent"
-        android:layout_height="58dp"
-        android:background="#F44336"
-        android:text="Entra"
         android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="48sp"
-        tools:ignore="TextContrastCheck" />
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnLogar"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:backgroundTint="@color/white"
+        android:gravity="center"
+        android:text="Logar"
+        android:textColor="@color/corVermelha"
+        android:textSize="20sp"
+        app:cornerRadius="20dp" />
+
+    <TextView
+        android:id="@+id/textView3"
         android:layout_width="match_parent"
-        android:layout_height="29dp"
-        android:text="Criar Nova Conta"
+        android:layout_height="wrap_content"
+        android:paddingEnd="5dp"
+        android:text="Ainda Não tem Cadastro?"
         android:textAlignment="viewEnd"
-        android:textColor="#FFFFFF"
-        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
         android:textStyle="bold|italic" />
 
+    <TextView
+        android:id="@+id/txtCadastro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:linksClickable="true"
+        android:paddingEnd="10dp"
+        android:text="Clique Aqui"
+        android:textAlignment="viewEnd"
+        android:textColor="@color/black"
+        android:textColorLink="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold|italic" />
 </LinearLayout>

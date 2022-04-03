@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.ezmed;
 
 import org.junit.Test;
 
