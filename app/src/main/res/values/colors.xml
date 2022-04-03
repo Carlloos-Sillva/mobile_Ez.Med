@@ -9,4 +9,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="corLaranja">#ff8000</color>
     <color name="corVermelha">#da251d</color>
+    <color name="corCinza">#c0c0c0</color>
 </resources>

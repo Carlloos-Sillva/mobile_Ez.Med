@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:text="Formulario de Cadastro"
         android:textAlignment="center"
-        android:textColor="@color/corVermelha"
+        android:textColor="@color/black"
         android:textSize="34sp" />
 
     <TextView
@@ -23,14 +23,14 @@
         android:layout_height="wrap_content"
         android:text="Nome"
         android:textAlignment="center"
-        android:textColor="@color/corVermelha"
+        android:textColor="@color/black"
         android:textSize="24sp" />
 
     <EditText
         android:id="@+id/edtNomeF"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/corVermelha"
+        android:backgroundTint="@color/black"
         android:ems="10"
         android:inputType="textPersonName"
         tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
@@ -41,14 +41,14 @@
         android:layout_height="wrap_content"
         android:text="Cpf"
         android:textAlignment="center"
-        android:textColor="@color/corVermelha"
+        android:textColor="@color/black"
         android:textSize="24sp" />
 
     <EditText
         android:id="@+id/edtCpfF"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/corVermelha"
+        android:backgroundTint="@color/black"
         android:ems="10"
         android:inputType="textPersonName"
         tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
@@ -59,14 +59,14 @@
         android:layout_height="wrap_content"
         android:text="E-mail"
         android:textAlignment="center"
-        android:textColor="@color/corVermelha"
+        android:textColor="@color/black"
         android:textSize="24sp" />
 
     <EditText
         android:id="@+id/edtEmailF"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/corVermelha"
+        android:backgroundTint="@color/black"
         android:ems="10"
         android:inputType="textPersonName"
         tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
@@ -79,7 +79,7 @@
         android:backgroundTint="@color/white"
         android:text="Salvar"
         android:textAlignment="center"
-        android:textColor="@color/corVermelha"
+        android:textColor="@color/black"
         android:textSize="24sp"
         app:cornerRadius="20dp" />
 
@@ -93,7 +93,7 @@
         android:layout_height="wrap_content"
         android:text="Nome"
         android:textAlignment="center"
-        android:textColor="@color/corVermelha"
+        android:textColor="@color/black"
         android:textSize="34sp" />
 
     <TextView
@@ -102,7 +102,7 @@
         android:layout_height="wrap_content"
         android:text="Cpf"
         android:textAlignment="center"
-        android:textColor="@color/corVermelha"
+        android:textColor="@color/black"
         android:textSize="34sp" />
 
     <TextView
@@ -111,7 +111,7 @@
         android:layout_height="wrap_content"
         android:text="Email"
         android:textAlignment="center"
-        android:textColor="@color/corVermelha"
+        android:textColor="@color/black"
         android:textSize="34sp" />
 
     <Button
@@ -121,7 +121,7 @@
         android:layout_marginStart="50dp"
         android:backgroundTint="@color/white"
         android:text="Recuperar"
-        android:textColor="@color/corVermelha"
+        android:textColor="@color/black"
         android:textSize="24sp"
         app:cornerRadius="40dp" />
 </LinearLayout>
